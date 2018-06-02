@@ -25,3 +25,12 @@ Smark provides a very thin layer on top of spark, it externalizes the data loadi
 Smark does not  stop there, it provides the GUI application to help developers to compose the spark task specifications , which make the developers to write the spark applications with interactive SQLs and with SQL autocompletion
 
 When the Smart specification is ready, the full-fledged  java/scala application including unit tests is ready in the developer’s favourite IDE, within the IDE, developers could do whatever is necessary to customize or extend, in return, the customized code for SQL user defined functions are available as autocompletion candidates in the GUI SQL interactive console.
+
+## Smark Design Principles
+1. Best developing tools should be based on GUI and customized coding support capability.
+2. Assist application development, not to dominate, developers still work work with the java/scala code in the IDE; Smark helps to build SQL statements for business transformation and loading , persistence configurations.
+3. Provide best flexibility to business application development; Smarks focus on the most tedious and time consuming work to boost development productivity.
+4. Smark advocates end to end testing to improve data-centric enterprise application qualities.
+
+
+
